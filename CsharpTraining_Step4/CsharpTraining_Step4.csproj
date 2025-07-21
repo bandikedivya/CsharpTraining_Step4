@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MicroSoftEmployees.Array</StartupObject>
+    <StartupObject>BookingSystem.RoomBooking</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Array\1.Array.cs" />
     <Compile Include="Array\2.Array_Advance.cs" />
     <Compile Include="Dictionary\Dictionary.cs" />
+    <Compile Include="Dictionary\DictionaryExample.cs" />
     <Compile Include="Dictionary\Dictionary_Advance.cs" />
     <Compile Include="List\5.List.cs" />
     <Compile Include="List\6.List_Advance.cs" />

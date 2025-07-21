@@ -9,7 +9,7 @@ namespace Dictionary
 {
 
     //Dictionary -  we won't use term Index -> We use Key
-
+    // We Use - System.Collection.Generic Namespace
     //Syntax:
     // Dictionary <TKey, TValue> localvariable = new Dictionary <TKey, TValue>();
     class DictionaryExample
@@ -38,10 +38,18 @@ namespace Dictionary
 
 
 
-            if (Book.ContainsKey(21))         //Checking if the page 21 is available
+            if (Book.ContainsKey(21))         //Checking if the [(Key) using ContainsKey] Method page 21 is available
             {
                 Console.WriteLine("Page You are Looking For is Available ");
             }
+
+
+            if (Book.ContainsValue(Book[27]))       //  //Checking if the [(Value) using ContainsValue] Method content chapter 3 is available
+            {
+                Console.WriteLine("Content You Are Looking For is Available");
+            }
+
+
 
             Book.Remove(21);        //Removing or Deleting  - D
 
