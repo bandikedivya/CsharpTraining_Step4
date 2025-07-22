@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BookingSystem.RoomBooking</StartupObject>
+    <StartupObject>ProjectCode.DictionaryProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,13 +50,18 @@
     <Compile Include="ArrayList\4.ArrayList_Advance.cs" />
     <Compile Include="Array\1.Array.cs" />
     <Compile Include="Array\2.Array_Advance.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Dictionary\Dictionary.cs" />
     <Compile Include="Dictionary\DictionaryExample.cs" />
     <Compile Include="Dictionary\Dictionary_Advance.cs" />
+    <Compile Include="HashSet\HashSet.cs" />
+    <Compile Include="HashTable\HashTableBasics.cs" />
+    <Compile Include="HashTable\HashTable_Advance.cs" />
     <Compile Include="List\5.List.cs" />
     <Compile Include="List\6.List_Advance.cs" />
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tuples\Tuples.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

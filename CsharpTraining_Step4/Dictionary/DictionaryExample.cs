@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,7 +8,7 @@ namespace BookingSystem
 {
     class RoomBooking
     {
-
+       
         static void Main()
         {
             Dictionary<int, string> FiveStartHotel = new Dictionary<int, string>();
@@ -35,11 +34,11 @@ namespace BookingSystem
             }
 
 
-            //Console.WriteLine("***********************Welcome To FiveStarHotel*******************");
-            //Console.WriteLine("Please Enter Your Name ");
-            //string name = Console.ReadLine();
-            //Console.WriteLine("Please Enter Your Mobile Number");
-            //long phnnum = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("***********************Welcome To FiveStarHotel*******************");
+            Console.WriteLine("Please Enter Your Name ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Please Enter Your Mobile Number");
+            long phnnum = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("Check If Room Is Available [1. Room 101 \t 2. Room 201 \t 3.Room 301 \t 4. Room 401");
             string choice = Console.ReadLine();
 

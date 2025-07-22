@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace Dictionary
 
 {
-
     //Dictionary -  we won't use term Index -> We use Key
     // We Use - System.Collection.Generic Namespace
     //Syntax:
@@ -68,15 +67,6 @@ namespace Dictionary
                 Console.WriteLine($"Pages No: {item.Key}");       //R
                 Console.WriteLine($"Content : {item.Value}");    //R
             }
-
-
-
-
-
-
-
-
-
 
 
 
