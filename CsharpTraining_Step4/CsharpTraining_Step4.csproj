@@ -50,7 +50,7 @@
     <Compile Include="ArrayList\4.ArrayList_Advance.cs" />
     <Compile Include="Array\1.Array.cs" />
     <Compile Include="Array\2.Array_Advance.cs" />
-    <Compile Include="Customer.cs" />
+    <Compile Include="Class.cs" />
     <Compile Include="Dictionary\Dictionary.cs" />
     <Compile Include="Dictionary\DictionaryExample.cs" />
     <Compile Include="Dictionary\Dictionary_Advance.cs" />
